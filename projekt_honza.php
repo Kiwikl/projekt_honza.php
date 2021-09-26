@@ -91,6 +91,7 @@
                 // nějaký nebezpečný virus do stránky
                 echo '<a href="' . htmlspecialchars($url) .  '">';
                 echo '<table class="text"><tr><td>[' . htmlspecialchars("{$x},{$y}") . ']</td><td>';
+                echo '<img src="https://www.panhradu.cz/i/u/bk_2_3.gif">';
                 echo '<img src="' . htmlspecialchars($thingUrl) . '">';
                 echo '</td></tr></table>';
                 echo '</a><br>';
