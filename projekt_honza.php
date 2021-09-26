@@ -26,11 +26,11 @@
     $things = [
         49 => 'https://www.panhradu.cz/i/ar/ne1.jpg', //plášť
         50 => 'https://www.panhradu.cz/i/ar/ne2.jpg', //helma
-        51 => 'https://www.panhradu.cz/i/ar/ne3.jpg', //meč
+        51 => 'https://www.panhradu.cz/i/ar/ne3.png', //meč
         52 => 'https://www.panhradu.cz/i/ar/ne4.jpg', //brnění
         53 => 'https://www.panhradu.cz/i/ar/ne5.jpg', //amulet
         54 => 'https://www.panhradu.cz/i/ar/ne6.jpg', //štít
-        55 => 'https://www.panhradu.cz/i/ar/ne7.jpg', //kuše
+        55 => 'https://www.panhradu.cz/i/ar/ne7.png', //kuše
         56 => 'https://www.panhradu.cz/i/ar/ne8.jpg', //holenice
     ];
 
