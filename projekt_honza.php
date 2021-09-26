@@ -24,6 +24,7 @@
 
     // Seznam zbraní, o které se zajímáme + převodní tabulka z jejich ID na URL obrázku
     $things = [
+        0 => false, // nemá žádný artefakt
         49 => 'https://www.panhradu.cz/i/ar/ne1.jpg', //plášť
         50 => 'https://www.panhradu.cz/i/ar/ne2.jpg', //helma
         51 => 'https://www.panhradu.cz/i/ar/ne3.png', //meč
@@ -92,7 +93,9 @@
                 echo '<a href="' . htmlspecialchars($url) .  '">';
                 echo '<table class="text"><tr><td>[' . htmlspecialchars("{$x},{$y}") . ']</td><td>';
                 echo '<img src="https://www.panhradu.cz/i/u/bk_2_3.gif">';
-                echo '<img src="' . htmlspecialchars($thingUrl) . '">';
+                if($thingUrl !== false) {
+                    echo '<img src="' . htmlspecialchars($thingUrl) . '">';
+                }
                 echo '</td></tr></table>';
                 echo '</a><br>';
             }
