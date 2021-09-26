@@ -6,7 +6,7 @@ $tajneHeslo = 'nebelvir';
 $prihlaseny = isset($_COOKIE['login']) && $_COOKIE['login'] === '1';
 
 // Koukneme, zda uživatel neposlal heslo
-if (isset($_POST['heslo']) && $_POST['heslo'] === 'nebelvir') {
+if (isset($_POST['heslo']) && $_POST['heslo'] === $tajneHeslo) {
     // Uživatel zná heslo – přihlásíme ho
     setcookie('login', '1', time() + 3600);
 
